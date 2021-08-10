@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    double x,y,result;
+    char op;
+    printf("enter a values:\n");
+    scanf("%lf %lf %c",&x,&y,&op);
+    switch(op)
+    {
+        case 'a':
+        result = x+y;
+        break;
+        case 's':
+        result=x-y;
+        break;
+        default:
+        printf("invalid operator\n");
+    }
+    printf("%.2lf\n",result);https:
+    return 0;
+}
